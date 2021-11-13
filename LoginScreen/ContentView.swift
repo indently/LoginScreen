@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var username = "mario2021"
-    @State private var password = "mario123"
+    @State private var username = ""
+    @State private var password = ""
     @State private var wrongUsername: Float = 0
     @State private var wrongPassword: Float  = 0
     @State private var showingLoginScreen = false
